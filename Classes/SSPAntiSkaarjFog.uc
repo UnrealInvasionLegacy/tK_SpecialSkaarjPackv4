@@ -1,0 +1,34 @@
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+class SSPAntiSkaarjFog extends xEmitter;
+
+defaultproperties
+{
+     mStartParticles=0
+     mLifeRange(0)=0.500000
+     mLifeRange(1)=1.000000
+     mRegenRange(0)=100.000000
+     mRegenRange(1)=100.000000
+     mPosDev=(X=25.000000,Y=25.000000,Z=25.000000)
+     mSpawnVecB=(Z=0.500000)
+     mSpeedRange(0)=0.000000
+     mSpeedRange(1)=0.000000
+     mMassRange(0)=-0.100000
+     mMassRange(1)=-0.500000
+     mRandOrient=True
+     mSpinRange(0)=-50.000000
+     mSpinRange(1)=50.000000
+     mSizeRange(0)=25.000000
+     mSizeRange(1)=50.000000
+     mColorRange(0)=(B=0,G=0,R=0,A=16)
+     mColorRange(1)=(B=0,G=0,R=0,A=16)
+     mRandTextures=True
+     mNumTileColumns=4
+     mNumTileRows=4
+     bLightChanged=True
+     Tag="SSPAntiSkaarjFog"
+     Skins(0)=Texture'ExplosionTex.Framed.SmokeReOrdered'
+     Style=STY_Alpha
+     bSelected=True
+}
